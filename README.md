@@ -39,7 +39,7 @@ OpenCore configuration, kernel extensions and ACPI patches for Dell Inspiron 14 
 
 You could try fixing Wi-Fi and Bluetooth with [itlwm or Airportitlwm](https://github.com/OpenIntelWireless/itlwm/releases) since it is stated as compatible in [this compatibility list](https://openintelwireless.github.io/itlwm/Compat.html). But it does not work for me. It is recommended to buy another Wi-Fi card for better compatibility and features.
 
-#### Credits
+#### Credits:
 * [Acidanthera](https://github.com/acidanthera) for [OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg), [AppleALC](https://github.com/acidanthera/AppleALC), [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys), [CPUFriend](https://github.com/acidanthera/CPUFriend), [Lilu](https://github.com/acidanthera/Lilu), [WhateverGreen](https://github.com/acidanthera/WhateverGreen), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) 
 * [CorpNewt](https://github.com/corpnewt) for [USBMap](https://github.com/corpnewt/USBMap), [SSDTTime](https://github.com/corpnewt/SSDTTime)
 * [Mieze](https://github.com/Mieze) for [RealtekRTL8100](https://www.insanelymac.com/forum/files/file/259-realtekrtl8100-binary/)
