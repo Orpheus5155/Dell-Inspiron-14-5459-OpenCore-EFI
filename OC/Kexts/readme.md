@@ -1,0 +1,2 @@
+# Kexts
+Most of the kexts in this folder can be found in [Dortania's Gathering Files section](https://dortania.github.io/OpenCore-Install-Guide/ktext.html). However, you must recreate CPUFriendDataProvider by following [Dortania's Fixing Power Management guide](https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#using-cpu-friend) to better suit your needs, since my own kext aren't really optimised (the battery drains a lot).
