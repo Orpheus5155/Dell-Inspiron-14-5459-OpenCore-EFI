@@ -11,4 +11,5 @@ sudo cp -R /path/to/Jack\ fix /usr/local/bin
 Execute the script and the audio will no longer be garbled.
 
 You can also run the script automatically on boot by going to System Preferences, go to Users & Groups, select Login items, add Jack Fix to Login Items.
+
 ![alt text](https://elitemacx86.com/attachments/screen-shot-2019-03-29-at-6-55-51-am-png.1652/ "Adding jack fix to login items")
