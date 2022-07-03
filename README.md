@@ -1,4 +1,4 @@
- **Note**: Please use this configuration as a base for your own configuration. I've made this to suit my own needs.
+**Note**: Please use this configuration as a base for your own configuration. I've made this to suit my own needs.
 
 # Dell Inspiron 14 5459 OpenCore EFI 
 OpenCore configuration, kernel extensions and ACPI patches for Dell Inspiron 14 5459 i7 variant.
@@ -22,24 +22,25 @@ OpenCore configuration, kernel extensions and ACPI patches for Dell Inspiron 14 
 * Intel® TurboBoost™: Enabled
 * Virtualisation: Enabled
 #### Working features:
-* macOS 12.2.1 Monterey
+* macOS 12.4 Monterey
 * Built-in keyboard (with function keys)
 * Built-in trackpad (with gestures)
 * HDMI Video and Audio
 * Integrated Camera
 * Ethernet
-* Native audio with AppleALC, including headphones
+* Native audio with AppleALC, including headphones (You will have to install some kexts for headphone port to work correctly, the guide is in kexts folder.)
 * Battery status
-* USB 3.0 and 2.0
 * Sleep and Wake
 #### To be fixed:
-* USB mapping (the port works but I have not map it correctly)
+* USB mapping (the port works but I have not map it correctly due to lack of 2.0 devices)
 * Microphone
 * Power Management (battery drains a lot)
 
-You could try fixing Wi-Fi with [itlwm or Airportitlwm](https://github.com/OpenIntelWireless/itlwm/releases) since it is stated as compatible in [this compatibility list](https://openintelwireless.github.io/itlwm/Compat.html). But it does not work for me. It is recommended to buy another Wi-Fi card for better compatibility and features.
+~~You could try fixing Wi-Fi with [itlwm or Airportitlwm](https://github.com/OpenIntelWireless/itlwm/releases) since it is stated as compatible in [this compatibility list](https://openintelwireless.github.io/itlwm/Compat.html). But it does not work for me. It is recommended to buy another Wi-Fi card for better compatibility and features.~~
 
-Bluetooth is not tested.
+Wi-Fi does work, the card is somehow loose on my laptop and it only takes a replug to get it to work lol. Use [itlwm](https://github.com/OpenIntelWireless/itlwm/releases)
+
+Bluetooth does not work.
 
 #### Credits:
 * [Acidanthera](https://github.com/acidanthera) for [OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg), [AppleALC](https://github.com/acidanthera/AppleALC), [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys), [CPUFriend](https://github.com/acidanthera/CPUFriend), [Lilu](https://github.com/acidanthera/Lilu), [WhateverGreen](https://github.com/acidanthera/WhateverGreen), [VirtualSMC](https://github.com/acidanthera/VirtualSMC) 
